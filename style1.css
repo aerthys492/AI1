@@ -98,3 +98,37 @@ ul li {
     border-radius: 100px;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        text-align: center; /* Wyśrodkowanie całej zawartości */
+        padding: 0 10px; /* Dodanie wewnętrznego odstępu */
+    }
+
+    #header {
+        text-align: center; /* Wyśrodkowanie tekstu w nagłówku */
+    }
+
+    #main {
+        margin: 100px auto; /* Wyśrodkowanie głównej części */
+        padding: 20px;
+        margin-left: 0;
+        background-color: rgba(0, 0, 0, 0.8); /* Lekko ciemniejsza zawartość na telefonie */
+        width: 100%; /* Szerokość 100% dla małych ekranów */
+    }
+
+    #borderedimage {
+        width: 200px; /* Zmniejszenie obrazu na telefonie */
+    }
+
+    #header h1 {
+        font-size: 1.5em; /* Zmniejszenie rozmiaru nagłówka */
+    }
+
+    #header h2 {
+        font-size: 1em; /* Zmniejszenie rozmiaru podtytułu */
+    }
+
+    #footer {
+        font-size: 0.8em; /* Zmniejszenie rozmiaru tekstu w stopce */
+    }
+}
