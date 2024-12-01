@@ -1,0 +1,144 @@
+body {
+    font-family: 'Times', sans-serif;
+    color: #f4f4f4;
+    line-height: 1.8;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+    padding: 40px 0;
+    background-color: rgba(20, 20, 20, 0.9);
+    border-bottom: 1px solid #444;
+    backdrop-filter: blur(5px);
+}
+
+
+#header h1 {
+    font-size: 2.5em;
+    color: #3ad7d5;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+#header h2 {
+    font-size: 1.2em;
+    color: #3ad7d5;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#main {
+    margin: 60px;
+    padding: 30px;
+    background-color: rgba(30, 30, 30, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+#introduction h3, #content h3, #conclusion h3 {
+    font-size: 1.6em;
+    color: #3ad7d5;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+#introduction p, #content p, #conclusion p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #eaeaea;
+}
+
+ul {
+    margin: 15px 0;
+    padding-left: 25px;
+    list-style-type: circle;
+}
+
+ul li {
+    margin-bottom: 8px;
+    color: #46e77e;
+}
+
+a {
+    color: #3ad7d5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(20, 20, 20, 0.9);
+    color: #aaa;
+    font-size: 0.9em;
+    border-top: 1px solid #444;
+    position: sticky;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+}
+
+#borderedimage {
+    width: 220px;
+    border: 10px solid #3ad7d5;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    float: right;
+    margin: 20px 0 20px 20px;
+}
+
+#borderedimage img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #header {
+        text-align: center;
+    }
+
+    #main {
+        margin: 100px auto;
+        padding: 20px;
+        margin-left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+    }
+
+    #borderedimage {
+        width: 200px;
+    }
+
+    #header h1 {
+        font-size: 1.5em;
+    }
+
+    #header h2 {
+        font-size: 1em;
+    }
+
+    #footer {
+        font-size: 0.8em;
+    }
+}
+
