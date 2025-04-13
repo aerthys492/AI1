@@ -1,0 +1,31 @@
+#wydarzenia-specjalne {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #add8e6; /* Jasnoniebieski kolor tła */
+    border-top: 2px solid #000; /* Lekko ciemniejszy odcień niebieskiego dla krawędzi */
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    color: #000; /* Czarny kolor tekstu */
+}
+
+#wydarzenia-specjalne h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000; /* Czarny kolor nagłówka */
+}
+
+#wydarzenia-specjalne ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#wydarzenia-specjalne li {
+    margin-bottom: 5px;
+    color: #000; /* Czarny kolor tekstu w liście */
+}
